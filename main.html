@@ -8,6 +8,88 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+
+ <form method="post">
+
+                    <!--name  -->
+                    <div>
+                        <label for="name">First Name:</label>
+                        <br />
+                        <input placeholder="Name" type="text" id="name" name="name" required />
+                    </div>
+                    <br />
+
+		 <!-- email -->
+                    <div>
+                        <label for="email">Email:</label>
+                        <br />
+                        <input placeholder="Emial" type="email" id="email" required />
+                    </div>
+                    <br />
+
+                    <div>
+                        <label for="gender">Gender:</label>
+                        <br />
+                        <span>Male</span><input value="male" type="radio" id="gender_m" name="gender" required/>
+						<span>Female</span><input value="female" type="radio" id="gender_f" name="gender"/>
+                    </div>
+                    <br />
+					<div>
+                        <label for="cars">Choose your car:</label>
+                        <br />
+                        <select placeholder="--Please choose an option--" name="cars" id="cars">
+							<option>--Please choose an option--</option>
+							<option>BMW</option>
+							<option>Audi</option>
+							<option>Mercedez</option>
+						</select>
+                    </div>
+                    <br />
+                    <!-- car age -->
+                    <div>
+                        <label for="age">Age:</label>
+                        <br />
+                        <input placeholder="Age" type="number" id="age" name="age" required />
+                    </div>
+                    <br />
+		 <!-- date of purchase -->
+                    <div>
+                        <label for="dob">Date Of Birth:</label>
+                        <br />
+                        <input type="date" id="dob" name="dob" required />
+                    </div>
+                    <br />
+
+                     <div>
+                        <label for="tel">Phone Number:</label>
+                        <br />
+                        <input placeholder="xxx-xxx-xxxx"  type="tel" id="tel" name="tel" required />
+                    </div>
+                    <br />
+
+                    <!-- password -->
+                    <div>
+                        <label for="password">Password:</label>
+                        <br />
+                        <input placeholder="Password" type="password" id="password" pattern=".{6,}" required />
+                    </div>
+                    <br />
+					<input type="checkbox" id="tos" required> <span> I agree to the TOS.</span>
+	                  <br><br>
+							 
+                    <!-- register btn -->
+                    <div>
+                       <button type="submit">Submit</button>
+                    </div>
+                    <br />
+
+
+                </form>
+
+
+
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
